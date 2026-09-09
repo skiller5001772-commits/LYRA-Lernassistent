@@ -1,0 +1,9 @@
+{
+  "name": "LYRA 3.0",
+  "short_name": "LYRA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#02070b",
+  "theme_color": "#050b11",
+  "lang": "de"
+}

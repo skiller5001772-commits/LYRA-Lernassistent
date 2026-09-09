@@ -1,0 +1,12 @@
+LYRA 4.0 — KI EINRICHTUNG AUF DEM iPAD
+
+1. Erstelle/öffne einen Cloudflare Worker im Browser.
+2. Öffne die Code-Ansicht und ersetze den Worker-Code durch worker.js aus diesem Paket.
+3. Lege in den Worker-Einstellungen ein geheimes Environment Secret mit dem Namen OPENAI_API_KEY an.
+4. Optional: OPENAI_MODEL = gpt-5.5
+5. Veröffentliche den Worker und kopiere seine URL.
+6. Öffne LYRA → Einstellungen → KI-Verbindung.
+7. Füge die Worker-URL ein → „Verbindung speichern“ → „Testen“.
+8. Wenn „Verbindung funktioniert“ erscheint, ist der KI-Modus aktiv.
+
+WICHTIG: Der API-Key gehört ausschließlich ins Backend. Niemals in index.html oder GitHub Pages eintragen.
