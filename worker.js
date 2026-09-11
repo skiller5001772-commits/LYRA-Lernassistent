@@ -106,12 +106,11 @@ ${JSON.stringify(context)}
           ]
         }];
       }
-
-      const payload = {
-        model: env.OPENAI_MODEL || "gpt-5.5",
-        instructions: instructions,
-        input: input,
-        store: true
+const payload = {
+  model: env.OPENAI_MODEL || "gpt-5.6-luna",
+  instructions: instructions,
+  input: input,
+  store: true
       };
 
       if (body.previous_response_id) {
